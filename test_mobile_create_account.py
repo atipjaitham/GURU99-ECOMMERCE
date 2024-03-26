@@ -11,8 +11,8 @@ def test_create_account():
     create_headder = driver.find_element(By.XPATH,"//h1[normalize-space()='Create an Account']").text
     print (create_headder)
     driver.find_element(By.XPATH,"//input[@id='firstname']").send_keys("Greg")
-    driver.find_element(By.XPATH,"//input[@id='lastname']").send_keys("Chouuu")
-    driver.find_element(By.XPATH,"//input[@id='email_address']").send_keys("gregchosu@gmail.com")
+    driver.find_element(By.XPATH,"//input[@id='lastname']").send_keys("Chou")
+    driver.find_element(By.XPATH,"//input[@id='email_address']").send_keys("gregchou_test28@gmail.com")
     driver.find_element(By.XPATH,"//input[@id='password']").send_keys("12345678")
     driver.find_element(By.XPATH,"//input[@id='confirmation']").send_keys("12345678")
     driver.find_element(By.XPATH,"//button[@title='Register']").click()
